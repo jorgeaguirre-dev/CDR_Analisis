@@ -17,7 +17,7 @@ Los CDRs de datos también tienen aplicaciones más amplias, como el diseño de 
 
 ![image](https://github.com/user-attachments/assets/09e64de8-85bb-4dca-8b27-6899d5a6f88c)
 
-A partir de un dataset en bruto se realiza el curado del mismo. Luego se continúa con el análisis en pos de encontrar patrones comúnes entre algunos usuarios. 
+A partir de un dataset en bruto se realiza el curado del mismo. Luego se continúa con el análisis en pos de encontrar patrones comúnes entre algunos usuarios.
 
 **Necesidad de Negocio:** Se necesita configurar cada APN de manera de minimizar la cantidad de registros generados por el trafico de los dispositivos conectados al mismo. Para ello es necesario establecer una configuración técnica para cada APN. Lo mejor es agrupar los distintos tipos de comportamiento de tráfico en cada APN. Luego será necesario agrupar APNs con comportamientos similares para aplicarles la misma configuración por grupo. De esa forma se minimiza la cantidad de distintas configuraciones a gestionar.
 
