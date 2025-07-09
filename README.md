@@ -1,15 +1,18 @@
 # Análisis Dataset CDRs #
 
+> Puede ver la presentación completa sobre el análisis realizado en formato .pdf en el siguiente archivo:
+> [📄 Ver informe en PDF](./Análisis%20de%20CDRs.pdf)
+
 **¿Qué son los CDRs de datos móviles?**
 
 Los Registros de Detalles de Llamadas (CDRs, por sus siglas en inglés) de datos móviles son registros generados por los operadores de redes móviles cada vez que un usuario utiliza datos móviles para navegar por internet, usar aplicaciones, enviar correos electrónicos, etc. Estos registros contienen metadatos que describen el uso de los datos móviles, sin incluir el contenido de las actividades realizadas. Los CDRs de datos móviles incluyen información como:
 
-    Número de teléfono: El número asociado al dispositivo móvil que utiliza los datos.
-    Fecha y hora: Cuándo comenzó y terminó la sesión de datos.
-    Duración de la sesión: Cuánto tiempo duró la sesión de datos.
-    Volumen de datos: La cantidad de datos transmitidos durante la sesión, generalmente medida en megabytes (MB) o gigabytes (GB).
-    Tipo de servicio: La naturaleza del servicio utilizado, como navegación web, transmisión de video, o uso de aplicaciones.
-    Ubicación: La torre celular a través de la cual se realizó la conexión de datos, lo que permite aproximar la ubicación del usuario.
+- **Número de teléfono**: El número asociado al dispositivo móvil que utiliza los datos.
+- **Fecha y hora**: Cuándo comenzó y terminó la sesión de datos.
+- **Duración de la sesión**: Cuánto tiempo duró la sesión de datos.
+- **Volumen de datos**: La cantidad de datos transmitidos durante la sesión, generalmente medida en megabytes (MB) o gigabytes (GB).
+- **Tipo de servicio**: La naturaleza del servicio utilizado, como navegación web, transmisión de video, o uso de aplicaciones.
+- **Ubicación**: La torre celular a través de la cual se realizó la conexión de datos, lo que permite aproximar la ubicación del usuario.
 
 Estos registros son cruciales para que los operadores de telecomunicaciones puedan facturar a los usuarios según su consumo de datos. Además, los CDRs de datos móviles permiten a los operadores monitorear el uso de la red, optimizar su rendimiento, y detectar posibles fraudes o usos indebidos​​.
 
