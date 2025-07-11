@@ -1,8 +1,9 @@
 # Análisis Dataset CDRs #
+![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-blue.svg)
+![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-brightgreen?style=flat-square)
 
-> Puede ver la presentación completa sobre el análisis realizado en formato .pdf en el siguiente archivo:
-> [📄 Ver informe en PDF](./Análisis%20de%20CDRs.pdf)
 
+## Descripción
 **¿Qué son los CDRs de datos móviles?**
 
 Los Registros de Detalles de Llamadas (CDRs, por sus siglas en inglés) de datos móviles son registros generados por los operadores de redes móviles cada vez que un usuario utiliza datos móviles para navegar por internet, usar aplicaciones, enviar correos electrónicos, etc. Estos registros contienen metadatos que describen el uso de los datos móviles, sin incluir el contenido de las actividades realizadas. Los CDRs de datos móviles incluyen información como:
@@ -22,7 +23,7 @@ Los CDRs de datos también tienen aplicaciones más amplias, como el diseño de 
 
 A partir de un dataset en bruto se realiza el curado del mismo. Luego se continúa con el análisis en pos de encontrar patrones comúnes entre algunos usuarios.
 
-**Necesidad de Negocio:** Se necesita configurar cada APN de manera de minimizar la cantidad de registros generados por el trafico de los dispositivos conectados al mismo. Para ello es necesario establecer una configuración técnica para cada APN. Lo mejor es agrupar los distintos tipos de comportamiento de tráfico en cada APN. Luego será necesario agrupar APNs con comportamientos similares para aplicarles la misma configuración por grupo. De esa forma se minimiza la cantidad de distintas configuraciones a gestionar.
+**Necesidad de Negocio:** Una posible necesidad es configurar cada APN de manera de minimizar la cantidad de registros generados por el trafico de los dispositivos conectados al mismo. Para ello es necesario establecer una configuración técnica para cada APN. Lo mejor es agrupar los distintos tipos de comportamiento de tráfico en cada APN. Luego será necesario agrupar APNs con comportamientos similares para aplicarles la misma configuración por grupo. De esa forma se minimiza la cantidad de distintas configuraciones a gestionar.
 
 ## Data Set ##
 Se presenta el dataset con su diversidad de campos ya listo para los pasos siguientes.
@@ -60,3 +61,14 @@ Se presenta el dataset con su diversidad de campos ya listo para los pasos sigui
 | **IdFlow**    | Numeric  | Identificador de flujo                         |
 | **SGSN**      | Text     | SGSN en servicio                               |
 | **CallTech**  | Numeric  | Tipo de tecnología de llamada                  |
+
+## Instalación de Dependencias
+Se provee archivo con los requerimientos:
+```bash
+conda install --file requirements.txt
+```
+
+## Resultados
+> Puede ver una presentación resumida sobre el análisis realizado en formato .pdf en el siguiente archivo:
+> [📄 Ver informe en PDF](./Análisis%20de%20CDRs.pdf)
+
