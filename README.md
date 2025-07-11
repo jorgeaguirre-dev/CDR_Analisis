@@ -1,7 +1,6 @@
 # Análisis Dataset CDRs #
 ![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-blue.svg)
-![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-brightgreen?style=flat-square)
-
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Descripción
 **¿Qué son los CDRs de datos móviles?**
@@ -72,3 +71,8 @@ conda install --file requirements.txt
 > Puede ver una presentación resumida sobre el análisis realizado en formato .pdf en el siguiente archivo:
 > [📄 Ver informe en PDF](./Análisis%20de%20CDRs.pdf)
 
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+💡 For commercial inquiries or specific licensing questions, feel free to contact me.
