@@ -1,11 +1,15 @@
-# Ignorar todos los archivos CSV
+# Some data file
+data/
 *.csv
-
-# Otros archivos y directorios que deseas ignorar
 *.log
-__pycache__/
-*.env
-
 drafts/
 *.txt
 *.xlsx
+
+# Carpetas de Jupyter
+.ipynb_checkpoints/
+
+# environment files
+__pycache__/
+*.env
+
